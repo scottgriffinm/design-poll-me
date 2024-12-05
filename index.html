@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en" data-critters-container>
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+  <meta charset="utf-8" />
+  <title>Poll.me | Better polling</title>
+  <base />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link id="appFavicon" rel="icon" type="image/x-icon" href="favicon.ico" />
+  <meta name="locale" content="en_US" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body class="mat-typography">
+  <website-layout select-6 class="" ngh="8"><app-nav-website select-3 select-7 class=" " ngh="3">
+      <nav select-4 id="nav_main" class="delayed-fade ">
+        <div select-4 class="wrapper wrapper1 desktop ">
+          <div select-4 class="container row verticalalign ">
+            <div select-4 class="col-md-auto col-logo ">
+              <div select-4 class="wrap ">
+                <a select-4 aria-label="Homepage" class="" href="index.html">
+                  <img src="https://cdn.glitch.global/c80168fc-ed27-4d60-b8e8-f3ba911e1f03/pollme2.png?v=1733358442595"
+                    style="height: auto; max-width: 100px" />
+                </a>
+              </div>
+            </div>
+            <div select-4 class="col col_navItems ">
+              <div select-4 class="wrap ">
+                <div select-4 class="wrapper ">
+                  <div select-4 class="row ">
+                    <div select-4 class="btn_group gap025 d-flex z_ov ">
+                      <button select-4 mat-button aria-label="Product" color="primary"
+                        class="mat-mdc-menu-trigger UI_tools_btn_transparent icon_right  mdc-button mat-mdc-button mat-primary _mat-animation-noopable mat-mdc-button-base"
+                        mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                        aria-haspopup="menu" aria-expanded="false" ngh="0">
+                        <span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span
+                          class="mdc-button__label"> Story </span><span class="mat-mdc-focus-indicator"></span><span
+                          class="mat-mdc-button-touch-target"></span></button><button select-4 mat-button
+                        aria-label="Resources" color="primary"
+                        class="mat-mdc-menu-trigger UI_tools_btn_transparent icon_right  mdc-button mat-mdc-button mat-primary _mat-animation-noopable mat-mdc-button-base"
+                        mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                        aria-haspopup="menu" aria-expanded="false" ngh="0">
+                        <span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span
+                          class="mdc-button__label"> Careers</span><span class="mat-mdc-focus-indicator"></span><span
+                          class="mat-mdc-button-touch-target"></span></button>
+                    </div>
+                    <mat-menu select-4 yposition="below" xposition="after" class="" ngh="1"></mat-menu><mat-menu
+                      select-4 yposition="below" xposition="after" class="" ngh="1"></mat-menu>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div select-4 class="col col-right right ">
+              <div select-4 class="btn_group right gap05 d-flex z_ov ">
+                <button select-4 mat-flat-button aria-label="Sign the petition" color="primary"
+                  class="UI_tools_icon_single_button  mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary _mat-animation-noopable mat-mdc-button-base"
+                  mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple" ngh="0">
+                  <span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span
+                    class="mdc-button__label"> Sign the petition </span><span
+                    class="mat-mdc-focus-indicator"></span><span class="mat-mdc-button-touch-target"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div select-4 id="mobile_nav" class="mobileNav ">
+          <div select-4 class="mobile container d-flex inlinemob gap1 space-between verticalalign ">
+            <div select-4 class="col-logo ">
+              <div select-4 class="wrap ">
+                <a select-4 aria-label="Homepage" class="" href="index.html"><img
+                    src="https://cdn.glitch.global/c80168fc-ed27-4d60-b8e8-f3ba911e1f03/pollme2.png?v=1733358442595"
+                    style="height: auto; max-width: 100px" /></a>
+              </div>
+            </div>
+            <div select-4 class="group_btn d-flex gap05 verticalalign ">
+              <button select-4 mat-icon-button mat-dialog-close aria-label="Open menu"
+                class="UI_tools_icon_single_button mobile_single_btn  mdc-icon-button mat-mdc-icon-button _mat-animation-noopable mat-unthemed mat-mdc-button-base"
+                mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                mat-ripple-loader-centered ngh="2">
+                <span class="mat-mdc-button-persistent-ripple mdc-icon-button__ripple"></span><svg select-4=""
+                  width="15" height="15" viewbox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="icon  ">
+                  <path select-4=""
+                    d="M14.3478 6.8479H0.652163C0.29198 6.8479 0 7.13988 0 7.50006C0 7.86025 0.29198 8.15223 0.652163 8.15223H14.3478C14.708 8.15223 15 7.86025 15 7.50006C15 7.13988 14.708 6.8479 14.3478 6.8479Z"
+                    fill="#404040" class="" />
+                  <path select-4=""
+                    d="M0.652163 3.58704H14.3478C14.708 3.58704 15 3.29506 15 2.93488C15 2.57469 14.708 2.28271 14.3478 2.28271H0.652163C0.29198 2.28271 0 2.57469 0 2.93488C0 3.29506 0.29198 3.58704 0.652163 3.58704Z"
+                    fill="#404040" class="" />
+                  <path select-4=""
+                    d="M14.3478 11.4131H0.652163C0.29198 11.4131 0 11.7051 0 12.0653C0 12.4255 0.29198 12.7174 0.652163 12.7174H14.3478C14.708 12.7174 15 12.4255 15 12.0653C15 11.7051 14.708 11.4131 14.3478 11.4131Z"
+                    fill="#404040" class="" />
+                </svg><span class="mat-mdc-focus-indicator"></span><span class="mat-mdc-button-touch-target"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </app-nav-website><router-outlet select-3></router-outlet><app-landing-page select-9 class="" ngh="6">
+      <div select-2 class="wrapper relative bg_alt">
+        <div select-2 class="page home relative">
+          <div select-2 class="wrapper relative">
+            <div select-2 id="rain01" class="section rain">
+              <div select-2 id="snow_container_rain01" class="snow_container"></div>
+              <div select-2 class="section main_section container padd-t-18 padd-m-t-10 pointer_e_none">
+                <div select-2 class="d-flex m-column gap4 verticalalign">
+                  <div select-2 class="flex-1 wrap s left m-w-800 auto center">
+                    <h1 select-2 class="first-div padd-t-05 padd-b-1 padd-m-t-0 m_left">
+                      The future of polling is coming.
+                    </h1>
+                    <h2 select-2 class="delayed-fade m-w-500 size_5 w-normal grey m_left auto center">
+                      Poll.me connects registered voters to their
+                      representatives. No need for biased polling agencies.
+                      Just truth.
+                    </h2>
+                    <div select-2 class="delayed-fade wrapper padd-t-1 z_ov">
+                      <app-waitlist select-2 select-10 ngh="4">
+                        <div select-5 class="waitlist btn_group gap05 d-flex z_ov left auto center">
+                          <input select-5 type="email" placeholder="Your email" /><button select-5 mat-flat-button
+                            color="primary"
+                            class="UI_tools_icon_single_button big t_e mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary _mat-animation-noopable mat-mdc-button-base"
+                            mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                            ngh="0">
+                            <span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span
+                              class="mdc-button__label">
+                              Sign the petition</span><span class="mat-mdc-focus-indicator"></span><span
+                              class="mat-mdc-button-touch-target"></span>
+                          </button>
+                        </div>
+                      </app-waitlist>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div select-2
+                class="container m-w-1100 section padd-t-2 padd-b-4 padd-m-t-2 padd-m-b-2 pointer_e_none">
+                <div select-2 class="row"></div>
+              </div>
+            </div>
+            <div select-2 class="delayed-fade section bg_white z_ov padd-t-6 padd-b-2 padd-m-t-2 padd-m-b-2 rain">
+              <div select-2 class="container">
+                <div select-2 class="row center">
+                  <div select-2 class="flex-end padd-m-t-1"></div>
+                  <div select-2 class="col padd-b-0 marg-t--1">
+                    <h3 select-2 class="h1 padd-b-1 m-w-800 auto center">
+                      Step into the new age of making your voice heard.
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="arrow-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-arrow-down">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <polyline points="19 12 12 19 5 12"></polyline>
+                </svg>
+              </div>
+            </div>
+
+            <div select-2 class="delayed-fade section relative">
+              <div select-2 class="bg_white section_usecases relative auto">
+                <div select-2 class="section container m-w-1300 auto padd-b-1">
+                  <div select-2>
+                    <div select-2 class="body wrapper pricing_tabs">
+                      <div select-2 class="wrapper">
+                        <div select-2 class="row">
+                          <div select-2 class="col product_item btransfer relative m-container">
+                            <div select-2 class="header">
+                              <div select-2 class="padd-t-1 padd-b-1 padd-m-b-1 padd-m-t-1">
+                                <div select-2 class="row reverse_mob verticalalign">
+                                  <div select-2 class="col m-w-450">
+                                    <div select-2 class="wrap m m-container">
+                                      <h2 select-2 class="padd-b-1 size_55">
+                                        Voice your opinion
+                                      </h2>
+                                      <p select-2 class="size_4 padd-b-05 padd-m-b-0">
+                                        How often are you asked to
+                                        participate in a poll? Poll.me
+                                        requires representatives to connect
+                                        with their constituents regularly
+                                        about issues that matter to them.
+                                      </p>
+                                      <div select-2 class="w-100 cta">
+                                        <div select-2 class="w-100 padd-m-t-05">
+                                          <button select-2 mat-flat-button color="primary"
+                                            class="UI_tools_icon_single_button w-100 big mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary _mat-animation-noopable mat-mdc-button-base"
+                                            mat-ripple-loader-uninitialized
+                                            mat-ripple-loader-class-name="mat-mdc-button-ripple" tabindex="0" ngh="0">
+                                            <span
+                                              class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span
+                                              class="mdc-button__label">
+                                              More Daily Polling</span><span
+                                              class="mat-mdc-focus-indicator"></span><span
+                                              class="mat-mdc-button-touch-target"></span>
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div select-2 class="section container m-w-1300 auto padd-b-1">
+                  <div select-2>
+                    <div select-2 class="body wrapper pricing_tabs">
+                      <div select-2 class="wrapper">
+                        <div select-2 class="row">
+                          <div select-2 class="col product_item btransfer relative m-container">
+                            <div select-2 class="header">
+                              <div select-2 class="padd-t-1 padd-b-1 padd-m-b-1 padd-m-t-1">
+                                <div select-2 class="row reverse_mob verticalalign">
+                                  <div select-2 class="col m-w-450">
+                                    <div select-2 class="wrap m m-container">
+                                      <h2 select-2 class="padd-b-1 size_55">
+                                        Registered voters only
+                                      </h2>
+                                      <p select-2 class="size_4 padd-b-05 padd-m-b-0">
+                                        We prevent bots and outsiders from
+                                        skewing out polls by requiring proof
+                                        of voter registration.
+                                      </p>
+                                      <div select-2 class="w-100 cta">
+                                        <div select-2 class="w-100 padd-m-t-05">
+                                          <button select-2 mat-flat-button color="primary"
+                                            class="UI_tools_icon_single_button w-100 big mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary _mat-animation-noopable mat-mdc-button-base"
+                                            mat-ripple-loader-uninitialized
+                                            mat-ripple-loader-class-name="mat-mdc-button-ripple" tabindex="0" ngh="0">
+                                            <span
+                                              class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span
+                                              class="mdc-button__label">
+                                              More Registered Voters</span><span
+                                              class="mat-mdc-focus-indicator"></span><span
+                                              class="mat-mdc-button-touch-target"></span>
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div select-2 class="section container m-w-1300 auto padd-b-6">
+                  <div select-2>
+                    <div select-2 class="body wrapper pricing_tabs">
+                      <div select-2 class="wrapper">
+                        <div select-2 class="row">
+                          <div select-2 class="col product_item btransfer relative m-container">
+                            <div select-2 class="header">
+                              <div select-2 class="padd-t-1 padd-b-1 padd-m-b-1 padd-m-t-1">
+                                <div select-2 class="row reverse_mob verticalalign">
+                                  <div select-2 class="col m-w-450">
+                                    <div select-2 class="wrap m m-container">
+                                      <h2 select-2 class="padd-b-1 size_55">
+                                        View detailed statistics
+                                      </h2>
+                                      <p select-2 class="size_4 padd-b-05 padd-m-b-0">
+                                        All polls are completely
+                                        transparent. Whether you're a
+                                        statistician or not, you'll
+                                        understand the strength of each poll
+                                        based on potential biases and sample
+                                        size.
+                                      </p>
+                                      <div select-2 class="w-100 cta">
+                                        <div select-2 class="w-100 padd-m-t-05">
+                                          <button select-2 mat-flat-button color="primary"
+                                            class="UI_tools_icon_single_button w-100 big mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary _mat-animation-noopable mat-mdc-button-base"
+                                            mat-ripple-loader-uninitialized
+                                            mat-ripple-loader-class-name="mat-mdc-button-ripple" tabindex="0" ngh="0">
+                                            <span
+                                              class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span
+                                              class="mdc-button__label">
+                                              More Detailed Statistics </span><span
+                                              class="mat-mdc-focus-indicator"></span><span
+                                              class="mat-mdc-button-touch-target"></span>
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div select-2 class="delayed-fade section relative">
+              <div select-2 class="bg_secondary section_usecases relative">
+                <div select-2 class="container bg_secondary">
+                  <div select-2 class="row gap1 padd-b-6 padd-t-6 padd-m-b-4 padd-m-t-2">
+                    <div select-2 class="col left m-w-0 d-flex column">
+                      <h3 select-2 class="h1 padd-t-1 padd-b-1 white">
+                        Make a difference every day.
+                      </h3>
+                      <p select-2 class="size_5 white m-w-1">
+                        Poll.me was made to empower your voice. No more
+                        confusion, no more agencies. Just truth.
+                      </p>
+                      <div select-2 class="flex-end padd-m-t-1"></div>
+                    </div>
+                    <div select-2 class="col">
+                      <div select-2 class="cards_type_customer m-w-1 m-l-auto marg-r-0">
+                        <div select-2 class="col card">
+                          <h4 select-2 class="h3 padd-b-1">
+                            <span select-2>Poll.me for</span>
+                            Local Governments
+                          </h4>
+                          <p select-2 class="grey padd-b-2 small grey">
+                            Empower your community by understanding their
+                            needs and opinions. Poll.me provides a direct
+                            line to local constituents, making it easy to
+                            address real concerns and ensure every voice is
+                            heard.
+                          </p>
+                          <a select-2 href="freelancers" mat-button color="secondary"
+                            class="UI_tools_btn_transparent icon_left big marg-l-0 mdc-button mat-mdc-button mat-secondary _mat-animation-noopable mat-mdc-button-base"
+                            mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                            ngh="0"><span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span
+                              class="mdc-button__label">Poll.me for Local</span><span
+                              class="mat-mdc-focus-indicator"></span><span
+                              class="mat-mdc-button-touch-target"></span></a>
+                        </div>
+                        <div select-2 class="col card">
+                          <h4 select-2 class="h3 padd-b-1">
+                            <span select-2>Poll.me for</span>
+                            State Governments
+                          </h4>
+                          <p select-2 class="grey padd-b-2 small grey">
+                            Stay in tune with your state’s diverse
+                            population. Use Poll.me to gather transparent,
+                            actionable insights that reflect the true
+                            opinions of your registered voters.
+                          </p>
+                          <a select-2 href="freelancers" mat-button color="secondary"
+                            class="UI_tools_btn_transparent icon_left big marg-l-0 mdc-button mat-mdc-button mat-secondary _mat-animation-noopable mat-mdc-button-base"
+                            mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                            ngh="0"><span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span
+                              class="mdc-button__label">Poll.me for States</span><span
+                              class="mat-mdc-focus-indicator"></span><span
+                              class="mat-mdc-button-touch-target"></span></a>
+                        </div>
+                        <div select-2 class="col card">
+                          <h4 select-2 class="h3 padd-b-1">
+                            <span select-2>Poll.me for</span>
+                            National Governments
+                          </h4>
+                          <p select-2 class="grey padd-b-2 small grey">
+                            Engage huge numbers of voters and understand
+                            their needs better than ever. Poll.me offers a
+                            secure and unbiased platform to understand
+                            national trends and make data-driven decisions
+                            with confidence.
+                          </p>
+                          <a select-2 href="start-ups" mat-button color="secondary"
+                            class="UI_tools_btn_transparent icon_left big marg-l-0 mdc-button mat-mdc-button mat-secondary _mat-animation-noopable mat-mdc-button-base"
+                            mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                            ngh="0"><span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span
+                              class="mdc-button__label">Poll.me for Nations</span><span
+                              class="mat-mdc-focus-indicator"></span><span
+                              class="mat-mdc-button-touch-target"></span></a>
+                        </div>
+                        <div select-2 class="col card">
+                          <h4 select-2 class="h3 padd-b-1">
+                            <span select-2>Poll.me for</span>
+                            Private Organizations
+                          </h4>
+                          <p select-2 class="grey padd-b-2 small grey">
+                            Bridge the gap between decision-makers and
+                            stakeholders. We'll help you gather frequent
+                            feedback and foster transparency in
+                            organizational growth and development.
+                          </p>
+                          <a select-2 href="start-ups" mat-button color="secondary"
+                            class="UI_tools_btn_transparent icon_left big marg-l-0 mdc-button mat-mdc-button mat-secondary _mat-animation-noopable mat-mdc-button-base"
+                            mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                            ngh="0"><span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span
+                              class="mdc-button__label">Poll.me for Companies</span><span
+                              class="mat-mdc-focus-indicator"></span><span
+                              class="mat-mdc-button-touch-target"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div select-2 class="section bg_tertiary padd-t-6 padd-b-1 padd-m-t-3">
+                <div select-2 class="container">
+                  <div select-2 class="row">
+                    <div select-2 class="col center m-w-800 auto">
+                      <h1 select-2 class="padd-t-1 padd-b-1 white">
+                        Make your voice heard.
+                      </h1>
+                      <p select-2 class="m-w-350 auto size_5 white">
+                        Support transparent polling
+                      </p>
+                      <div select-2 class="wrapper padd-t-1">
+                        <div select-2 class="row center verticalalign">
+                          <app-waitlist select-2 select-10 ngh="5">
+                            <div select-5 class="waitlist btn_group gap05 d-flex z_ov bg_tertiary center">
+                              <input select-5 type="email" placeholder="Your email" /><button select-5
+                                mat-flat-button color="primary"
+                                class="UI_tools_icon_single_button big t_e mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary _mat-animation-noopable mat-mdc-button-base"
+                                mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                                ngh="0">
+                                <span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span
+                                  class="mdc-button__label">
+                                  Sign the petition
+                                  <!----><!----><!----></span><span class="mat-mdc-focus-indicator"></span><span
+                                  class="mat-mdc-button-touch-target"></span>
+                              </button>
+                            </div>
+                            <!---->
+                          </app-waitlist>
+                        </div>
+                      </div>
+                      <div select-2 class="flex-end padd-t-6 padd-m-t-3"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </app-landing-page><footer-website select-3 select-8 ngh="7">
+      <footer select-1 class="delayed-fade relative border-t v1">
+        <div select-1 id="rain03" class="section rain">
+          <div select-1 id="snow_container_rain03" class="snow_container"></div>
+          <div select-1 class="container section level_02 padd-t-4 padd-m-t-2">
+            <div select-1 class="row">
+              <div select-1 class="col">
+                <div select-1 class="wrap">
+                  <div select-1 class="row">
+                    <div select-1 class="col">
+                      <img
+                        src="https://cdn.glitch.global/c80168fc-ed27-4d60-b8e8-f3ba911e1f03/pollme2.png?v=1733358442595"
+                        style="height: auto; max-width: 100px" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div select-1 class="col padd-t-1">
+                <div select-1 class="wrap links_foot">
+                  <div select-1 class="d-flex gap05 verticalalign inlinemob social m-center">
+                    <a select-1 href="https://www.instagram.com/poll.me/" target="_blank"
+                      aria-label="Instagram Poll.me" class="col-md-auto social_icon"><svg select-1="" width="17"
+                        height="17" viewbox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g select-1="" clip-path="url(#clip0_745_126)">
+                          <path select-1=""
+                            d="M16.9833 4.99805C16.9435 4.09477 16.7974 3.47378 16.5881 2.93568C16.3723 2.3645 16.0402 1.85312 15.6051 1.42801C15.18 0.996288 14.6652 0.660819 14.1007 0.44833C13.5595 0.239083 12.9417 0.0930128 12.0384 0.0531872C11.1284 0.00998882 10.8395 0 8.53145 0C6.22338 0 5.93448 0.00998882 5.02783 0.0498144C4.12456 0.08964 3.50356 0.23584 2.96559 0.444957C2.39428 0.660819 1.88291 0.992915 1.4578 1.42801C1.02607 1.85312 0.690734 2.36787 0.478115 2.93243C0.268868 3.47378 0.122798 4.0914 0.0829724 4.99467C0.039774 5.90469 0.0297852 6.19359 0.0297852 8.50166C0.0297852 10.8097 0.039774 11.0986 0.0795996 12.0053C0.119425 12.9085 0.265625 13.5295 0.474872 14.0676C0.690734 14.6388 1.02607 15.1502 1.4578 15.5753C1.88291 16.007 2.39766 16.3425 2.96222 16.555C3.50356 16.7642 4.12118 16.9103 5.02459 16.9501C5.93111 16.9901 6.22013 16.9999 8.5282 16.9999C10.8363 16.9999 11.1252 16.9901 12.0318 16.9501C12.9351 16.9103 13.5561 16.7642 14.0941 16.555C15.2365 16.1133 16.1398 15.21 16.5815 14.0676C16.7906 13.5263 16.9368 12.9085 16.9767 12.0053C17.0165 11.0986 17.0265 10.8097 17.0265 8.50166C17.0265 6.19359 17.0231 5.90469 16.9833 4.99805ZM15.4524 11.9389C15.4158 12.7691 15.2764 13.2174 15.1601 13.5163C14.8745 14.2569 14.2867 14.8447 13.5461 15.1303C13.2472 15.2466 12.7956 15.386 11.9686 15.4225C11.072 15.4624 10.8031 15.4723 8.53482 15.4723C6.26658 15.4723 5.99428 15.4624 5.10087 15.4225C4.27063 15.386 3.8223 15.2466 3.52341 15.1303C3.15486 14.9941 2.81939 14.7783 2.5471 14.496C2.26482 14.2203 2.04896 13.8882 1.91274 13.5197C1.79651 13.2208 1.65706 12.7691 1.6206 11.9422C1.58065 11.0456 1.57079 10.7765 1.57079 8.50828C1.57079 6.24003 1.58065 5.96774 1.6206 5.07445C1.65706 4.24421 1.79651 3.79588 1.91274 3.497C2.04896 3.12832 2.26482 2.79298 2.55047 2.52056C2.82601 2.23828 3.1581 2.02241 3.52678 1.88633C3.82567 1.7701 4.27737 1.63064 5.10424 1.59406C6.0009 1.55424 6.26995 1.54425 8.53806 1.54425C10.8097 1.54425 11.0786 1.55424 11.972 1.59406C12.8023 1.63064 13.2506 1.7701 13.5495 1.88633C13.918 2.02241 14.2535 2.23828 14.5258 2.52056C14.8081 2.79622 15.0239 3.12832 15.1601 3.497C15.2764 3.79588 15.4158 4.24746 15.4524 5.07445C15.4922 5.97111 15.5022 6.24003 15.5022 8.50828C15.5022 10.7765 15.4922 11.0422 15.4524 11.9389Z"
+                            fill="#020202" />
+                          <path select-1=""
+                            d="M8.53161 4.13477C6.12067 4.13477 4.16455 6.09076 4.16455 8.50183C4.16455 10.9129 6.12067 12.8689 8.53161 12.8689C10.9427 12.8689 12.8987 10.9129 12.8987 8.50183C12.8987 6.09076 10.9427 4.13477 8.53161 4.13477ZM8.53161 11.3346C6.96752 11.3346 5.69881 10.0661 5.69881 8.50183C5.69881 6.9376 6.96752 5.66902 8.53161 5.66902C10.0958 5.66902 11.3644 6.9376 11.3644 8.50183C11.3644 10.0661 10.0958 11.3346 8.53161 11.3346Z"
+                            fill="#020202" />
+                          <path select-1=""
+                            d="M14.0909 3.96189C14.0909 4.5249 13.6344 4.9814 13.0713 4.9814C12.5083 4.9814 12.0518 4.5249 12.0518 3.96189C12.0518 3.39876 12.5083 2.94238 13.0713 2.94238C13.6344 2.94238 14.0909 3.39876 14.0909 3.96189Z"
+                            fill="#020202" />
+                        </g>
+                        <defs select-1="">
+                          <clippath select-1="" id="clip0_745_126">
+                            <rect select-1="" width="17" height="17" fill="white" />
+                          </clippath>
+                        </defs>
+                      </svg></a><a select-1 href="https://tiktok.com/@Pollme" target="_blank"
+                      aria-label="TikTok Poll.me" class="col-md-auto social_icon"><svg select-1="" width="17"
+                        height="18" viewbox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path select-1=""
+                          d="M15.9482 4.51367C14.9781 4.51367 14.0829 4.17336 13.364 3.59926C12.5396 2.94113 11.9473 1.97574 11.7381 0.863047C11.6863 0.588125 11.6584 0.304414 11.6557 0.0136719H8.88428V8.03211L8.88096 12.4242C8.88096 13.5984 8.1588 14.594 7.15772 14.9442C6.8672 15.0458 6.55343 15.0939 6.22671 15.075C5.80968 15.0507 5.41887 14.9175 5.07921 14.7023C4.35637 14.2446 3.8663 13.4142 3.85302 12.4643C3.8321 10.9796 4.96565 9.76918 6.36682 9.76918C6.64341 9.76918 6.90903 9.81699 7.15772 9.90383V7.71219V6.92434C6.89542 6.8832 6.62846 6.86176 6.35852 6.86176C4.82487 6.86176 3.3905 7.53676 2.36518 8.75281C1.59022 9.6718 1.12538 10.8443 1.05366 12.0737C0.959695 13.6887 1.51784 15.224 2.60026 16.3568C2.7593 16.523 2.92632 16.6774 3.10096 16.8198C4.02899 17.576 5.16354 17.9859 6.35852 17.9859C6.62846 17.9859 6.89542 17.9648 7.15772 17.9237C8.27401 17.7486 9.30397 17.2075 10.1168 16.3568C11.1155 15.3116 11.6674 13.9239 11.6733 12.447L11.6591 5.88828C12.1355 6.27746 12.6565 6.59949 13.2156 6.84945C14.0852 7.23793 15.0073 7.4348 15.9562 7.43445V5.30363V4.51297C15.9569 4.51367 15.9489 4.51367 15.9482 4.51367Z"
+                          fill="#020202" />
+                      </svg></a><a select-1 href="https://x.com/poll.me" target="_blank" aria-label="X Poll.me"
+                      class="col-md-auto social_icon"><svg select-1="" xmlns="http://www.w3.org/2000/svg" width="17"
+                        height="17" id="Capa_1" data-name="Capa 1" viewbox="0 0 24 24">
+                        <path select-1=""
+                          d="m18.9,1.153h3.682l-8.042,9.189,9.46,12.506h-7.405l-5.804-7.583-6.634,7.583H.469l8.6-9.831L0,1.153h7.593l5.241,6.931,6.065-6.931Zm-1.293,19.494h2.039L6.482,3.239h-2.19l13.314,17.408Z" />
+                      </svg></a><a select-1 href="https://www.youtube.com/@poll.me" target="_blank"
+                      aria-label="Youtube Poll.me" class="col-md-auto social_icon"><svg select-1="" width="23"
+                        height="23" viewbox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path select-1=""
+                          d="M21.8257 6.11039C21.5772 5.18664 20.8489 4.45846 19.9253 4.20972C18.238 3.74805 11.4885 3.74805 11.4885 3.74805C11.4885 3.74805 4.7393 3.74805 3.05197 4.19222C2.14612 4.44069 1.40004 5.18678 1.15156 6.11039C0.70752 7.7976 0.70752 11.2966 0.70752 11.2966C0.70752 11.2966 0.70752 14.8133 1.15156 16.4829C1.4003 17.4065 2.12835 18.1347 3.0521 18.3834C4.75707 18.8452 11.4888 18.8452 11.4888 18.8452C11.4888 18.8452 18.238 18.8452 19.9253 18.401C20.8491 18.1524 21.5772 17.4243 21.826 16.5006C22.2699 14.8133 22.2699 11.3144 22.2699 11.3144C22.2699 11.3144 22.2877 7.7976 21.8257 6.11039ZM9.33963 14.5292V8.0641L14.9521 11.2966L9.33963 14.5292Z"
+                          fill="#020202" />
+                      </svg></a><a select-1 href="https://www.linkedin.com/company/Poll.me-app/" target="_blank"
+                      aria-label="LinkedIn Poll.me" class="col-md-auto social_icon lk"><svg select-1="" width="18"
+                        height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path select-1=""
+                          d="M2.60015 0.914062C1.36275 0.914062 0.553711 1.7266 0.553711 2.79458C0.553711 3.83897 1.33865 4.67468 2.55267 4.67468H2.57616C3.83776 4.67468 4.62291 3.83897 4.62291 2.79458C4.59932 1.7266 3.83776 0.914062 2.60015 0.914062Z"
+                          fill="#020202" />
+                        <path select-1="" d="M0.767578 6.16064H4.38503V17.0439H0.767578V6.16064Z" fill="#020202" />
+                        <path select-1=""
+                          d="M13.2643 5.90527C11.3129 5.90527 10.0043 7.73903 10.0043 7.73903V6.16071H6.38672V17.044H10.0041V10.9663C10.0041 10.641 10.0277 10.3161 10.1232 10.0834C10.3847 9.43374 10.9799 8.76065 11.9792 8.76065C13.2882 8.76065 13.8118 9.75869 13.8118 11.2218V17.044H17.4289V10.8037C17.4289 7.46083 15.6442 5.90527 13.2643 5.90527Z"
+                          fill="#020202" />
+                      </svg></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div select-1 class="row padd-t-3 padd-b-2 padd-m-t-1">
+              <div select-1 class="col">
+                <div select-1 class="wrap links_foot">
+                  <div select-1 class="inline_footer_02">
+                    <span select-1 rel="”nofollow”" class="cta secondary_cta blue z_ov relative">Privacy policy</span>
+                  </div>
+                </div>
+              </div>
+              <div select-1 class="col right"></div>
+            </div>
+          </div>
+          <div select-1 class="section eat_animation_container">
+            <div select-1 class="wrapper">
+              <div select-1 class="cont_xAnim xAnim--1 relative"></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </footer-website></website-layout>
+</body>
+</html>
