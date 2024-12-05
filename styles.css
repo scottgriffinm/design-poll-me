@@ -2148,7 +2148,7 @@ img[select-3]:not(.logo) {
   }
 }
 
-.rain[select-3] {
+.main[select-3] {
   overflow: hidden;
   position: relative
 }
@@ -4361,7 +4361,7 @@ img[select-4]:not(.logo) {
   }
 }
 
-.rain[select-4] {
+.main[select-4] {
   overflow: hidden;
   position: relative
 }
@@ -6569,7 +6569,7 @@ img[select-1]:not(.logo) {
   }
 }
 
-.rain[select-1] {
+.main[select-1] {
   overflow: hidden;
   position: relative
 }
@@ -9653,7 +9653,7 @@ img[select-2]:not(.logo) {
   }
 }
 
-.rain[select-2] {
+.main[select-2] {
   overflow: hidden;
   position: relative
 }
@@ -11861,7 +11861,7 @@ img[select-5]:not(.logo) {
   }
 }
 
-.rain[select-5] {
+.main[select-5] {
   overflow: hidden;
   position: relative
 }
